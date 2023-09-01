@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.3.1](https://github.com/npm/cli/compare/arborist-v6.3.0...arborist-v6.3.1) (2023-09-01)
+
+### Dependencies
+
+* [`588a245`](https://github.com/npm/cli/commit/588a245191c4bf37f43a919809c54c205547811b) [#6756](https://github.com/npm/cli/pull/6756) `npm-pick-manifest@8.0.2`
+* [`95b5ab0`](https://github.com/npm/cli/commit/95b5ab06785bd047b08ac0a84b986115774ead0f) [#6708](https://github.com/npm/cli/pull/6708) `npm-install-checks@6.2.0`
+
 ## [6.3.0](https://github.com/npm/cli/compare/arborist-v6.2.10...arborist-v6.3.0) (2023-07-05)
 
 ### Features

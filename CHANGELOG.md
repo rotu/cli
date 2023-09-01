@@ -1,5 +1,22 @@
 # Changelog
 
+## [9.8.2](https://github.com/npm/cli/compare/v9.8.1...v9.8.2) (2023-09-01)
+
+### Documentation
+
+* [`9750720`](https://github.com/npm/cli/commit/975072058e0fcec25074d73514cd50ea180b54fe) [#6694](https://github.com/npm/cli/pull/6694) fix example path (#6694) (@fvilers)
+
+### Dependencies
+
+* [`588a245`](https://github.com/npm/cli/commit/588a245191c4bf37f43a919809c54c205547811b) [#6756](https://github.com/npm/cli/pull/6756) `npm-pick-manifest@8.0.2`
+* [`a76b1df`](https://github.com/npm/cli/commit/a76b1df3a78231cac910a68b2f188b17c9a6c623) [#6708](https://github.com/npm/cli/pull/6708) `sigstore@1.9.0`
+* [`95b5ab0`](https://github.com/npm/cli/commit/95b5ab06785bd047b08ac0a84b986115774ead0f) [#6708](https://github.com/npm/cli/pull/6708) `npm-install-checks@6.2.0`
+* [Workspace](https://github.com/npm/cli/releases/tag/arborist-v6.3.1): `@npmcli/arborist@6.3.1`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v5.0.20): `libnpmdiff@5.0.20`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v6.0.4): `libnpmexec@6.0.4`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v4.0.20): `libnpmfund@4.0.20`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v5.0.20): `libnpmpack@5.0.20`
+
 ## [9.8.1](https://github.com/npm/cli/compare/v9.8.0...v9.8.1) (2023-07-18)
 
 ### Bug Fixes
