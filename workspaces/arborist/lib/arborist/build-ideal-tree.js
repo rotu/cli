@@ -195,7 +195,7 @@ module.exports = cls => class IdealTreeBuilder extends cls {
       await this.#applyUserRequests(options)
       await this.#buildDeps()
       await this.#fixDepFlags()
-      await this.#pruneFailedOptional()
+      await this.#throwFailure()
       await this.#checkEngineAndPlatform()
     } finally {
       process.emit('timeEnd', 'idealTree')
@@ -1496,15 +1496,10 @@ This is a one-time fix-up, please be patient...
     }
   }
 
-  #pruneFailedOptional () {
+  #throwFailure () {
     for (const node of this.#loadFailures) {
       if (!node.optional) {
         throw node.errors[0]
-      }
-
-      const set = optionalSet(node)
-      for (const node of set) {
-        node.parent = null
       }
     }
   }
