@@ -29,7 +29,6 @@ const { defaultLockfileVersion } = Shrinkwrap
 const Node = require('../node.js')
 const Link = require('../link.js')
 const addRmPkgDeps = require('../add-rm-pkg-deps.js')
-const optionalSet = require('../optional-set.js')
 const { checkEngine, checkPlatform } = require('npm-install-checks')
 const relpath = require('../relpath.js')
 const resetDepFlags = require('../reset-dep-flags.js')
